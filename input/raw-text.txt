@@ -1,0 +1,194 @@
+=== CUSTOMER SUPPORT TICKETS — EXPORTED 2024-03-15 ===
+
+Ticket #4821 [OPEN]
+From: james.mwangi@techsolutions.co.ke
+Date: 2024-03-14 09:32:17
+Tags: #billing #urgent #accountissue
+
+Hi support team,
+
+I've been trying to access my dashboard at https://app.techsolutions.co.ke/dashboard but keep
+getting a 403 error. I'm based in Nairobi, reach me on +254 712 345 678 or
++254-733-901-234 if needed. My colleague at d.kamau@alumni.alueducation.com has the
+same issue and she cc'd si.support@si.alueducation.com on a previous ticket.
+
+Also our card on file (ending in info below) was charged twice this month:
+Visa: 4532 1548 0343 2199
+MasterCard: 5412 7534 9823 0011
+
+Please escalate. The error appears inside this HTML block our dev exported:
+<div class="error-container"><p class="msg">Access denied for user session</p></div>
+<span id="err-code">403</span>
+
+Regards,
+James
+
+---
+
+Ticket #4822 [RESOLVED]
+From: alice.njeri28@gmail.com
+Date: 2024-03-13 14:05:44
+Tags: #onboarding #help
+
+Hello,
+
+I followed the setup guide at http://docs.techsolutions.co.ke/setup/getting-started but
+the link on step 3 seems broken. It redirects me to https://legacy.techsolutions.co.ke/old-docs
+instead of the new portal. I'm on mobile so some of the <table> tags in the email template
+looked strange on my screen.
+
+My phone number is (020) 203-4567 or reach me via WhatsApp at +254 798 111 222.
+Also can someone send updates to: alicentest+tag@gmail.com (this is a plus-address, please
+don't strip the +tag part).
+
+#NewUser #OnboardingBug
+
+---
+
+Ticket #4823 [OPEN]
+From: <REDACTED FOR PRIVACY>
+Date: 2024-03-14 22:17:03
+Tags: #security #flagged
+
+** FLAGGED BY SECURITY FILTER **
+
+Message body contained suspicious patterns and was quarantined.
+Raw content excerpt (sanitized):
+  Attempted SQL fragment: ' OR 1=1 --
+  Attempted script injection: <script>alert('xss')</script>
+  Fake email pattern: admin@[127.0.0.1]
+  Malformed card: 0000-0000-0000-0000
+  URL with encoded traversal: https://evil.site/../../etc/passwd
+  Embedded null bytes in name field: John\x00Doe
+
+System note: None of the above patterns should be processed by extraction logic.
+
+---
+
+=== SOCIAL MEDIA EXPORT — TWITTER/X MENTIONS (Last 7 days) ===
+
+@techsol_ke replying to @jk_nairobi:
+"Hey! Check out our new feature drop at https://techsolutions.co.ke/blog/feature-update-march-2024
+#ProductUpdate #TechKenya #BuildingInPublic — call us on +254 700 000 100 for a demo!"
+[12:34 PM · Mar 11, 2024]
+
+@devguru_rw:
+"Just attended the ALU hackathon, amazing energy!! Our team used REST APIs and posted our repo at
+https://github.com/devguru-rw/alu-hackathon-2024. Shoutout to lead@alueducation.com for organizing.
+#ALUHackathon #Rwanda #WebDev #100DaysOfCode"
+[9:02 AM · Mar 12, 2024]
+
+@startup_nairobi:
+"Bootstrapped to $10k MRR in 6 months 🔥🔥 Full thread:
+https://medium.com/@startup_nairobi/how-we-bootstrapped-10k-mrr-2024
+Contact: hello@startupnairobi.io or call +1 (415) 867-5309
+#Startups #EastAfrica #IndieHacker #BuildInPublic"
+[3:17 PM · Mar 10, 2024]
+
+@techsol_ke (announcement):
+"New pricing page is live → https://techsolutions.co.ke/pricing?utm_source=twitter&utm_medium=social
+Use code LAUNCH20 for 20% off. Our sales team is at sales@techsolutions.co.ke
+#SaaS #AfricanTech #NewProduct"
+[10:00 AM · Mar 09, 2024]
+
+---
+
+=== CRM CONTACT EXPORT — ACCOUNTS TEAM ===
+
+ID: C-0091
+Name: Dr. Patricia Osei
+Email: p.osei@alueducation.com
+Phone: +233 30 296 0000 (Ghana office)
+Alt Phone: +233-244-777-123
+Account: Enterprise
+Notes: Renewed contract. Send docs to p.osei@alueducation.com. Do not CC alumni addresses.
+Tags: #enterprise #ghana #renewed
+
+---
+
+ID: C-0092
+Name: Brian K.
+Email: bkimani92@yahoo.com
+Phone: 0722 - 456 - 789 (Kenya, informal format)
+Account: Starter
+Notes: Requested invoice. Card details captured separately. Interested in:
+  <ul><li>API access</li><li>Webhook support</li></ul>
+Tags: #starter #invoice #pending
+
+---
+
+ID: C-0093
+Name: [CORRUPTED RECORD]
+Email: @@broken-email..com
+Phone: 00000000000
+Card: 1234-5678-not-a-card
+Notes: Record failed validation on import. Discard.
+Tags: #corrupt #ignore
+
+---
+
+ID: C-0094
+Name: Amina Hassan
+Email: amina.hassan@si.alueducation.com
+Phone: +252 61 234 5678 (Somalia)
+Account: Student Innovator
+Notes: SI cohort member. Linked profile: https://si.alueducation.com/profile/amina-hassan
+Tags: #SI #alum #studentinnovator
+
+---
+
+=== WEB SCRAPE — TECH BLOG SNIPPETS ===
+
+Source: https://techblog.co.ke/articles/regex-in-python
+
+[Excerpt 1]
+"...Building robust parsers for phone numbers in Africa requires handling many formats.
+A Kenyan mobile number might appear as +254712345678, 0712 345 678, 0712-345-678 or even
+(+254) 712-345-678 in different systems. A Nigerian number could be +234 803 123 4567,
+while a South African one might show up as +27 82 555 1234..."
+
+[Excerpt 2]
+"...When scraping HTML, always sanitize tags. Common patterns include:
+<header class="site-header"> at the top of every page,
+<nav id="main-navigation">, <footer>, and within content:
+<a href="https://example.com">Click here</a>,
+<img src="/assets/logo.png" alt="Company Logo">,
+<input type="email" name="user_email" placeholder="Enter email">.
+These must be parsed carefully to avoid running arbitrary content..."
+
+[Excerpt 3]
+"...The following links were found broken during a crawl:
+https://old.example.co.ke/page-not-found
+http://legacy-api.techsolutions.co.ke:8080/v1/endpoint?debug=true&token=REDACTED
+ftp://files.techsolutions.co.ke/exports/data.csv — note this is FTP, not HTTP..."
+
+---
+
+#NEWSLETTER SUBSCRIBER LIST (partial, anonymized)
+
+subscribers:
+- fatuma.ali@alumni.alueducation.com | #newsletter #alumni
+- kofi.mensah88@outlook.com | #newsletter #ghana
+- not-a-valid@email | <-- INVALID, skip
+- j.doe@si.alueducation.com | #newsletter #SI
+- user@@doubledomain.com | <-- MALFORMED, skip
+- info@techsolutions.co.ke | #newsletter #corporate
+
+---
+
+#RAW API RESPONSE FRAGMENT (unparsed JSON-ish dump)
+
+{
+  "event": "form_submission",
+  "data": {
+    "name": "Kevin Odhiambo",
+    "email": "kevin.odhiambo@techsolutions.co.ke",
+    "phone": "+254 (0) 723-456-789",
+    "website": "https://kevin.dev/portfolio?ref=form",
+    "card_hint": "Card ending 4111-xxxx-xxxx-1111",
+    "message": "I would like a demo. #interested #B2B",
+    "html_snippet": "<form action='/submit'><input type='text' name='q'></form>",
+    "injected_field": "'; DROP TABLE users; --",
+    "fake_card": "9999 9999 9999 9999"
+  }
+}
