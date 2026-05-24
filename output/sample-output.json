@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "extracted_at": "2026-05-24T15:34:48Z",
+    "source_file": "input/raw-text.txt",
+    "security_note": "Credit card numbers are masked. Lines containing hostile patterns were quarantined and skipped. All data passed secondary validation before inclusion."
+  },
+  "emails": {
+    "alu_official": [
+      "lead@alueducation.com",
+      "p.osei@alueducation.com"
+    ],
+    "alu_alumni": [
+      "d.kamau@alumni.alueducation.com",
+      "fatuma.ali@alumni.alueducation.com"
+    ],
+    "alu_si": [
+      "si.support@si.alueducation.com",
+      "amina.hassan@si.alueducation.com",
+      "j.doe@si.alueducation.com"
+    ],
+    "general": [
+      "james.mwangi@techsolutions.co.ke",
+      "alice.njeri28@gmail.com",
+      "alicentest+tag@gmail.com",
+      "hello@startupnairobi.io",
+      "sales@techsolutions.co.ke",
+      "bkimani92@yahoo.com",
+      "kofi.mensah88@outlook.com",
+      "info@techsolutions.co.ke",
+      "kevin.odhiambo@techsolutions.co.ke"
+    ]
+  },
+  "urls": {
+    "valid": [
+      "https://app.techsolutions.co.ke/dashboard",
+      "http://docs.techsolutions.co.ke/setup/getting-started",
+      "https://legacy.techsolutions.co.ke/old-docs",
+      "https://techsolutions.co.ke/blog/feature-update-march-2024",
+      "https://github.com/devguru-rw/alu-hackathon-2024",
+      "https://medium.com/@startup_nairobi/how-we-bootstrapped-10k-mrr-2024",
+      "https://techsolutions.co.ke/pricing?utm_source=twitter&utm_medium=social",
+      "https://si.alueducation.com/profile/amina-hassan",
+      "https://techblog.co.ke/articles/regex-in-python",
+      "https://example.com",
+      "https://old.example.co.ke/page-not-found",
+      "http://legacy-api.techsolutions.co.ke:8080/v1/endpoint?debug=true&token=REDACTED",
+      "https://kevin.dev/portfolio?ref=form"
+    ],
+    "flagged": [
+      {
+        "url": "ftp://files.techsolutions.co.ke/exports/data.csv",
+        "reason": "non-HTTP scheme (ftp)"
+      }
+    ]
+  },
+  "phone_numbers": [
+    "+254 712 345 678",
+    "+254-733-901-234",
+    "(020) 203-4567",
+    "+254 798 111 222",
+    "+254 700 000 100",
+    "+1 (415) 867-5309",
+    "+233 30 296 0000",
+    "+233-244-777-123",
+    "+252 61 234 5678",
+    "+254712345678",
+    "0712 345 678",
+    "0712-345-678",
+    "+254) 712-345-678",
+    "+234 803 123 4567",
+    "+27 82 555 1234",
+    "+254 (0) 723-456-789"
+  ],
+  "credit_cards": [
+    "****-****-****-2199"
+  ],
+  "html_tags": [
+    "<div class=\"error-container\">",
+    "<p class=\"msg\">",
+    "</p>",
+    "</div>",
+    "<span id=\"err-code\">",
+    "</span>",
+    "<table>",
+    "<REDACTED FOR PRIVACY>",
+    "<ul>",
+    "<li>",
+    "</li>",
+    "</ul>",
+    "<header class=\"site-header\">",
+    "<nav id=\"main-navigation\">",
+    "<footer>",
+    "<a href=\"https://example.com\">",
+    "</a>",
+    "<img src=\"/assets/logo.png\" alt=\"Company Logo\">",
+    "<input type=\"email\" name=\"user_email\" placeholder=\"Enter email\">",
+    "<form action='/submit'>",
+    "<input type='text' name='q'>",
+    "</form>"
+  ],
+  "hashtags": [
+    "#billing",
+    "#urgent",
+    "#accountissue",
+    "#onboarding",
+    "#help",
+    "#newuser",
+    "#onboardingbug",
+    "#security",
+    "#flagged",
+    "#productupdate",
+    "#techkenya",
+    "#buildinginpublic",
+    "#aluhackathon",
+    "#rwanda",
+    "#webdev",
+    "#startups",
+    "#eastafrica",
+    "#indiehacker",
+    "#buildinpublic",
+    "#saas",
+    "#africantech",
+    "#newproduct",
+    "#enterprise",
+    "#ghana",
+    "#renewed",
+    "#starter",
+    "#invoice",
+    "#pending",
+    "#corrupt",
+    "#ignore",
+    "#si",
+    "#alum",
+    "#studentinnovator",
+    "#newsletter",
+    "#alumni",
+    "#corporate",
+    "#raw",
+    "#interested",
+    "#b2b"
+  ],
+  "quarantined_lines": 6,
+  "rejected": {
+    "emails": [],
+    "phones": [],
+    "cards": [
+      "****-****-****-XXXX (failed Luhn)"
+    ]
+  }
+}
